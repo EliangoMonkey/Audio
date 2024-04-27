@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Audio</title>
+</head>
+<body>
+    <h1>Reproduccion de audio</h1>
+    <script>
+        var meses = new Array ("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+        var f=new Date();
+        document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+    </script>
+    <br>
+    <br>
+
+    <audio src="assets/Depeche Mode - Personal Jesus (Official Video).mp3" preload="auto" controls></audio><br>
+    <audio id="player" src="assets/Depeche Mode - Personal Jesus (Official Video).mp3" autoplay loop></audio><br>
+</body>
+
+</html>
